@@ -1,9 +1,27 @@
+/* for test */
 *{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
 #example{
     margin: 200px;
+}
+p{
+    margin: 0 0 10px;
+    line-height: 1.3
+}
+/* for test */
+
+.levus-readmore{
+    padding:5px;
+    border:1px solid green;
+    background:white;
+    text-align:center;
+    position:absolute;
+    left:0;
+    bottom:0;
+    width:100%;
+    overflow:hidden;
+    cursor:pointer;
 }

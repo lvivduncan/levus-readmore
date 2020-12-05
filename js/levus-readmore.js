@@ -14,8 +14,8 @@ function levusReadmore(selector, height, word = 'розгорнути'){
 
             // create button
             const element = document.createElement('div');
-            element.className = 'readmore';
-            element.style.cssText = 'padding:5px;border:1px solid green;background:white;text-align:center;position:absolute;left:0;bottom:0;width:100%;cursor:pointer;overflow:hidden';
+            element.className = 'levus-readmore';
+            // element.style.cssText = 'padding:5px;border:1px solid green;background:white;text-align:center;position:absolute;left:0;bottom:0;width:100%;cursor:pointer;overflow:hidden';
             element.textContent = word;
 
             // add button
@@ -23,7 +23,7 @@ function levusReadmore(selector, height, word = 'розгорнути'){
         }
 
         item.addEventListener('click', e =>{
-            if(e.target.className == 'readmore'){
+            if(e.target.className == 'levus-readmore'){
                 item.style.cssText = '';
                 e.target.style.display = 'none';
             }
