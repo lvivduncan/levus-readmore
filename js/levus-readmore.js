@@ -32,4 +32,4 @@ function levusReadmore(selector, height, word = 'розгорнути'){
 
 }
 
-levusReadmore('#example p', 100);
+levusReadmore('#example p', 50);

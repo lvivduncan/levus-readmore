@@ -26,4 +26,4 @@ function levusReadmore(selector, height) {
     });
 }
 
-levusReadmore('#example p', 100);
+levusReadmore('#example p', 50, 'дивитися усе');
