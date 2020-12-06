@@ -1,4 +1,4 @@
-// 5-12-2020
+// 6-12-2020
 function levusReadmore(selector, height, word = 'розгорнути'){
 
     // клас або айді
@@ -15,8 +15,8 @@ function levusReadmore(selector, height, word = 'розгорнути'){
             // create button
             const element = document.createElement('div');
             element.className = 'levus-readmore';
-            // element.style.cssText = 'padding:5px;border:1px solid green;background:white;text-align:center;position:absolute;left:0;bottom:0;width:100%;cursor:pointer;overflow:hidden';
-            element.textContent = word;
+            element.style.cssText = 'padding:5px;border:1px solid green;background:white;text-align:center;position:absolute;left:0;bottom:0;width:100%;cursor:pointer;overflow:hidden';
+            element.textContent = `<span class="levus-readmore">${word}</span>`;
 
             // add button
             item.append(element);
